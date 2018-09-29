@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity"
+    android:background="#f2671d">
+
+    <EditText
+        android:id="@+id/fnamee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:textSize="19sp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_margin="5dp"
+        />
+
+    <EditText
+        android:id="@+id/lnamee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:hint="Last Name"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_margin="5dp"
+        />
+
+    <EditText
+        android:id="@+id/emaill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:hint="Email"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_margin="5dp"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/passwordd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:hint="Password"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_margin="5dp"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:id="@+id/cpasswordd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:hint="Confirm Password"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_margin="5dp"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/regreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Register"
+
+        />
+
+
+
+</LinearLayout>
